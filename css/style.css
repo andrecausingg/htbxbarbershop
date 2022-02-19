@@ -1,0 +1,417 @@
+.header{
+    position: fixed;
+    top: 0;
+    background-color: rgb(159, 168, 149); /* Near Green */
+    padding: 10px;
+    z-index: 1;
+}
+
+.nav{
+    text-align: center;
+}
+
+.nav-logo-container h3{
+   margin: 10px 0px;
+   font-family: 'Varela Round', sans-serif;
+}
+
+.nav-navigation-link{
+    background-color: rgb(138, 122, 108); /* Near Brown */
+}
+
+.nav-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-li a{
+    color: rgb(255, 255, 255); /* White */
+    padding: 15px;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-li a:hover{
+    background-color: rgb(214, 165, 147); /* Near Pink */;
+    border-bottom: 3px solid rgb(214, 165, 147); /* Near Pink */;
+}
+
+.nav-hamburger{
+    background-color: rgb(138, 122, 108); /* Near Brown */;
+    width: 50px !important;
+    height: 40px !important;
+    padding: 10px;
+    margin:  auto auto;
+    position: relative;
+}
+
+.nav-hamburger span{
+    width: 30px;
+    height: 3px;
+    background-color: rgb(255, 255, 255); /* White */
+    display: block;
+    margin-bottom: 5px;
+}
+
+.nav-hamburger span:last-child{
+    margin-bottom: 0;
+}
+
+.nav-btn-hamburger-open span:first-child{
+    transform: rotate(45deg);
+    position: inherit;
+    top: 4px;
+    margin-top: 5px;
+}
+
+.nav-btn-hamburger-open span:nth-child(2){
+    display: none;
+}
+
+.nav-btn-hamburger-open span:last-child{
+    position: inherit;
+    transform: rotate(-45deg);
+    bottom: 4px;
+}
+
+.overlay{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(138, 122, 108); /* Near to Brown */
+    display: none;
+}
+
+.overlay a{
+    position: relative;
+    top: 150px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Hero */
+.hero{
+    position: relative;
+    background-image: url('../images/background/bg-hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+}
+
+.hero-btn-container{
+    position: absolute;
+    background-color: rgb(214, 165, 147); /* Near Pink */;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 20px;
+}
+
+.hero-btn-container:hover{
+    background-color: rgb(107, 133, 173); /* Near Blue */
+}
+
+/* About us */
+.about-us{
+    margin-top: 100px !important;
+}
+
+.about-us-grid{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 24px 30px;
+}
+
+.about-us-btn-read{
+    display: inline-block;
+    margin-top: 10px;
+    background-color: rgb(214, 165, 147); /* Near Pink */;
+    padding: 20px;
+}
+
+.about-us-btn-read:hover{
+    background-color: rgb(107, 133, 173); /* Near Blue */
+}
+
+/* Barbers */
+.barbers{
+    margin-top: 100px !important;
+    background-color: rgb(138, 122, 108); /* Near Brown */
+    height: 100% !important;
+    padding-bottom: 20px;
+}
+
+.barbers-container-title{
+    display: block;
+    padding: 20px 0px;
+}
+
+.barbers-container-title h1{
+    margin-top: 0;
+}
+
+.barbers-grid{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 24px 30px;
+}
+
+.barbers-item{
+    position: relative;
+    width: 296px;
+    height: 535px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto auto;
+
+}
+
+.barbers-content-container{
+    background-color: rgb(159, 168, 149); /* Near Green */
+    position: absolute;
+    bottom: 0;
+}
+
+.barbers-content-container h3{
+    margin-bottom: 0;
+}
+
+.barbers-content-container p{
+    padding: 20px;
+    margin: 0;
+    text-align: start;
+}
+
+/* Haircut */
+.haircut{
+    margin-top: 100px !important;
+}
+
+.haircut-grid{
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 30px;
+}
+
+.haircut-item{
+    position: relative;
+    width: 296px;
+    height: 297px;
+    margin: auto auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.haircut-container-name{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(159, 168, 149); /* Near Green */
+    width: 100%;
+    text-align: center;
+}
+
+.haircut-container-name h2{
+    margin: 10px;
+}
+
+/* Appointment */
+.appointment{
+    margin-top: 100px !important;
+    background-color: rgb(138, 122, 108); /* Near Brown */
+}
+
+.input-text{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.appointment-grid{
+    display: grid;
+    grid-template-columns: 100%   
+}
+
+.appointment-form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.appointment-input-text{
+    width: 100%;
+    margin: 0 5px;
+}
+
+/* Contact */
+.contact{
+    margin-top: 100px !important;
+}
+
+.contact-form-container{
+    background-color: rgb(159, 168, 149); /* Near Green */
+}
+
+.contact-input-container{
+    width: 100%;
+    padding: 10px;
+}
+
+.contact-input-text{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 16px !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-container-email-name{
+    padding: 10px;
+}
+
+.contact-btn-container{
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.btn-submit{
+    padding: 15px 50px;
+    background-color: rgb(214, 165, 147); /* Near Pink */
+    cursor: pointer;
+    border: none;
+    color: rgb(255, 255, 255); /* White */
+}
+
+.btn-submit:hover{
+    background-color: rgb(107, 133, 173); /* Near Blue */
+}
+
+/* Footer */
+.footer{
+    margin-top: 100px !important;
+    background-color: rgb(138, 122, 108); /* Near Brown */
+}
+
+.footer-item{
+    width: 100%;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 30px;
+    padding: 0px 20px;
+}
+
+.footer-item h3{
+    margin-bottom: 10px;
+}
+
+.footer-item p{
+    margin: auto auto;
+}
+
+.footer-item a{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-hr{
+    margin-top: 20px !important;
+    border: 1px solid white;
+}
+
+.footer-terms-condition{
+    padding: 20px 0px;
+}
+
+/* Loader */
+
+.container-title-loader{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.loader-hr{
+    width: 300px;
+    border: 2px solid white;
+}
+
+.container-title-loader h1{
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+}
+
+.container-loader{
+    position: fixed;
+    z-index: 2;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(159, 168, 149); /* Near Green */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader {
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid rgb(138, 122, 108); /* Near Brown */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* All */
+.active{
+    border-bottom: 3px solid rgb(255, 255, 255); /* White */
+}
+
+.text-center{
+    text-align: center;
+}
+
+.own-page{
+    margin-top: 150px !important;
+}
+
+
+/* Modified Own Page*/
+.barbers-bc{
+    background-color: rgb(56, 57, 56); /* Near Black */
+}
+
+.footer-no-margin-top{
+    margin: 0 !important; 
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mq.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div id="loader-container" class="container-loader">
+        <div class="container-title-loader">
+            <h1>HTBX <br> BARBERSHOP</h1>
+            <hr class="loader-hr">
+            <div  class="loader">
+            </div>
+        </div>
+    </div>
+
+    <!-- Start of Header -->
+    <header class="header container-max">
+        <div class="overlay">
+            <a href="index.html">Home</a>
+            <a href="about-us.html">About Us</a>
+            <a href="barbers.html">Barbers</a>
+            <a href="haircut.html">Hair Cut</a>
+            <a href="appointment.html">Appointment</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <nav class="nav container">
+            <div class="nav-logo-container text-center">
+                <h3>HTBX BARBERSHOP</h3>
+            </div>
+
+            <div id="btnHamburgerJs" class="nav-hamburger hide-desktop">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <div class="nav-navigation-link hide-mobile">
+                <ul class="nav-ul">
+                    <li class="nav-li"><a href="index.html">Home</a></li>
+                    <li class="nav-li"><a href="about-us.html">About Us</a></li>
+                    <li class="nav-li"><a href="barbers.html">Barbers</a></li>
+                    <li class="nav-li"><a href="haircut.html">Hair Cut</a></li>
+                    <li class="nav-li"><a href="appointment.html">Appointment</a></li>
+                    <li class="nav-li"><a class="active" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header> <!-- End of Header -->
+
+    <main class="container-max">
+        <!-- Contact -->
+        <section class="contact container own-page">
+            <div>
+                <h1>Get in touch with us &  <br>
+                    send us message today!</h1>
+            </div>
+
+            <form action=""></form>
+            <div class="contact-form-container">
+                <div class="contact-container-email-name">
+                    <div class="contact-container-em-inside">
+                        <div class="contact-input-container">
+                            <!-- Name -->
+                            <label for="name">Name</label>
+                            <input class="contact-input-text" type="text" name="" id=""> 
+                        </div>  
+                        
+                        <div class="contact-input-container">
+                            <!-- Email -->
+                            <label for="email">Email</label>
+                            <input class="contact-input-text" type="email" name="" id=""> 
+                        </div>  
+                    </div>
+
+                    <div class="contact-input-container">
+                        <!-- Comment -->
+                        <label for="comment">Comment</label> <br>
+                        <textarea class="contact-input-text" name="" id="" cols="30" rows="10"></textarea>
+                    </div>  
+                                        
+                    <div class="contact-btn-container">
+                        <input class="btn-submit" type="submit" value="Submit">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+
+        <div class="footer-grid container">
+            <div class="footer-item">
+                <h3>HTBX BARBERSHOP</h3>
+                <p>Our barbershop is the created for  <br>
+                    men who appreciate premium quality,  <br>
+                    time and flawless look.</p>
+            </div>
+
+            <div class="footer-item">
+                <h3>Headquaters</h3>
+                <p>12, Collins Street, <br> Dona Faustina Village, <br> Tandang Sora, <br> Quezon City, <br> 1116 Metro Manila</p> <br>
+                <p>htbx@gmail.com<br>
+                    +6398245778512</p>
+            </div>
+
+            <div class="footer-item">
+                <h3>Opening Hours</h3>
+                <p>Monday - Tuesday <br> 9:00 am to 8:00 pm</p>
+                <hr>
+                <p>Wednesday - Thursday <br> 8:00 am to 4:00 pm</p>
+                <hr>
+                <p>Friday <br> 7:00 am to 5:00 pm</p>
+                <hr>
+                <p>Saturday - Sunday<br> 6:00 am to 8:00 pm</p>
+            </div>
+
+            <div class="footer-item">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a> 
+                <a href="about-us.html">About Us</a>
+                <a href="barbers.html">Barbers</a>
+                <a href="haircut.html">Hair Cut</a>
+                <a href="appointment.html">Appointment</a>
+                <a class="active" href="contact.html">Contact Us</a>
+            </div>
+        </div>
+
+        <hr class="container footer-hr">
+
+        <div class="text-center footer-terms-condition">
+            <span>© 2022 Barber Shop Powered  <br>
+                by Andre Causing</span>
+        </div>
+    </footer>
+
+    <script src="js/btnHamburger.js"></script>
+</body>
+</html>

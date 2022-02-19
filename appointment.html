@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mq.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div id="loader-container" class="container-loader">
+        <div class="container-title-loader">
+            <h1>HTBX <br> BARBERSHOP</h1>
+            <hr class="loader-hr">
+            <div  class="loader">
+            </div>
+        </div>
+    </div>
+    
+    <!-- Start of Header -->
+    <header class="header container-max">
+        <div class="overlay">
+            <a href="index.html">Home</a>
+            <a href="about-us.html">About Us</a>
+            <a href="barbers.html">Barbers</a>
+            <a href="haircut.html">Hair Cut</a>
+            <a href="appointment.html">Appointment</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <nav class="nav container">
+            <div class="nav-logo-container text-center">
+                <h3>HTBX BARBERSHOP</h3>
+            </div>
+
+            <div id="btnHamburgerJs" class="nav-hamburger hide-desktop">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <div class="nav-navigation-link hide-mobile">
+                <ul class="nav-ul">
+                    <li class="nav-li"><a href="index.html">Home</a></li>
+                    <li class="nav-li"><a href="about-us.html">About Us</a></li>
+                    <li class="nav-li"><a href="barbers.html">Barbers</a></li>
+                    <li class="nav-li"><a href="haircut.html">Hair Cut</a></li>
+                    <li class="nav-li"><a class="active" href="appointment.html">Appointment</a></li>
+                    <li class="nav-li"><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header> <!-- End of Header -->
+
+    <main class="container-max">
+        <!-- Start of Appointment -->
+        <section class="appointment container-max">
+            <div class="appointment-grid">
+                <div class="appointment-item">
+                    <img src="images/appointment.JPG" alt="appointment" width="100%" height="470">
+                </div>
+
+                <div class="appointment-item-content">
+                    <h1>MAKE AN APPOINTMENT</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae id at tenetur quibusdam iste consequatur, vero voluptate exercitationem perferendis odit laboriosam numquam similique hic fuga earum laborum quos aspernatur suscipit?</p>
+                    <form action=""></form>
+                    <div class="appointment-form-container">
+                        <!-- Name and Email -->
+                        <div class="appointment-input-text">
+                            <!-- Name -->
+                            <label for="name">Name</label>
+                            <input class="input-text " type="text" name="" id=""> 
+                        </div>
+
+                        <div class="appointment-input-text">
+                            <!-- Email -->
+                            <label for="email">Email</label>
+                            <input class="input-text" type="email" name="" id="">
+                        </div>
+                    </div>
+
+
+                    <div class="appointment-form-container">
+                        <div class="appointment-input-text">
+                            <!-- Phone Number -->
+                            <label for="phoneNumber">Phone Number</label> <br>
+                            <input class="input-text" type="text" name="" id=""> 
+                        </div>
+
+                        <div class="appointment-input-text">
+                            <!-- Time -->
+                            <label for="time">Time</label>
+                            <input class="input-text" type="time" name="" id="" step="3600000" value="04:30">
+                        </div>
+                    </div>
+
+                    <div class="appointment-form-container">
+                        <div class="appointment-input-text">
+                            <!-- Barbers -->
+                            <label for="barber">Barbers</label>
+                            <select class="input-text" name="" id="">
+                                <option value="">- Select  Barber -</option>
+                                <option value="">Shawn</option>
+                                <option value="">Teddy</option>
+                                <option value="">Kurt</option>
+                            </select>
+                        </div>
+
+                        <div class="appointment-input-text">
+                            <!-- Haircut -->
+                            <label for="haircut">Haircut</label>
+                            <select class="input-text" name="" id="">
+                                <option value="">- Select  Haircut -</option>
+                                <option value="">Bald Fade</option>
+                                <option value="">Disconnected Undercut</option>
+                                <option value="">Fade Haircut</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    
+                    <div class="contact-btn-container">
+                        <input class="btn-submit" type="submit" value="Submit">
+                    </div>  
+                </div> 
+            </div>
+        </section> <!-- End of Appointment -->
+    </main>
+
+    <footer class="footer footer-no-margin-top">
+        <div class="footer-grid container">
+            <div class="footer-item">
+                <h3>HTBX BARBERSHOP</h3>
+                <p>Our barbershop is the created for  <br>
+                    men who appreciate premium quality,  <br>
+                    time and flawless look.</p>
+            </div>
+
+            <div class="footer-item">
+                <h3>Headquaters</h3>
+                <p>12, Collins Street, <br> Dona Faustina Village, <br> Tandang Sora, <br> Quezon City, <br> 1116 Metro Manila</p> <br>
+                <p>htbx@gmail.com<br>
+                    +6398245778512</p>
+            </div>
+
+            <div class="footer-item">
+                <h3>Opening Hours</h3>
+                <p>Monday - Tuesday <br> 9:00 am to 8:00 pm</p>
+                <hr>
+                <p>Wednesday - Thursday <br> 8:00 am to 4:00 pm</p>
+                <hr>
+                <p>Friday <br> 7:00 am to 5:00 pm</p>
+                <hr>
+                <p>Saturday - Sunday<br> 6:00 am to 8:00 pm</p>
+            </div>
+
+            <div class="footer-item">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a> 
+                <a href="about-us.html">About Us</a>
+                <a href="barbers.html">Barbers</a>
+                <a href="haircut.html">Hair Cut</a>
+                <a class="active" href="appointment.html">Appointment</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+
+        <hr class="container footer-hr">
+
+        <div class="text-center footer-terms-condition">
+            <span>© 2022 Barber Shop Powered  <br>
+                by Andre Causing</span>
+        </div>
+    </footer>
+
+    <script src="js/btnHamburger.js"></script>
+</body>
+</html>

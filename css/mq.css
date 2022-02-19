@@ -1,0 +1,159 @@
+
+/* Hamburger Menu */
+@media only screen and (max-width: 991px){
+    .hide-mobile{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .hide-desktop{
+        display: none;
+    }
+}
+
+/* Padding Mobile */
+@media only screen and (max-width: 575px){
+    .header, .about-us, .barbers, .haircut, .appointment-item-content, .contact, .footer{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+
+/* Containers */
+@media only screen and (min-width: 0px){
+    .container-max{
+        width: 100%;
+    }
+}
+
+/* Mobile  */
+@media only screen and (min-width: 576px){
+    .container{
+        max-width: 540px;
+        margin: auto auto;
+    }
+
+    /* Appointment */
+    .appointment-item-content{
+        padding: 20px;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px){
+    .container{
+        max-width: 720px;
+        margin: auto auto;
+    }
+
+    /* About Us Auto */
+    .about-us-item img{
+        width: 452px;
+        height: auto;
+    }
+
+    /* Barbers */
+    .barbers-grid{
+        grid-template-columns: auto auto;
+    }
+
+    .barbers-item{
+        width: 100%;
+    }
+    
+    /* Haircut */
+    .haircut-grid{
+        grid-template-columns: auto auto;
+    }
+
+    /* Appointment */
+    .appointment-grid{
+        grid-template-columns: 50% 50%;
+        align-items: center;
+    }
+    
+    .appointment-item img{
+        height: 800px;
+    }
+
+    .appointment-form-container{
+        flex-direction: row;
+    }
+
+    /* Contact */
+    .contact-container-em-inside{
+        display: flex;
+    }
+
+    .contact-container-email-name{
+        padding: 20px 50px;
+    }
+}
+
+/* laptops/desktops */
+@media only screen and (min-width: 992px){
+    .container{
+        max-width: 960px;
+        margin: auto auto;
+    }
+
+    /* Hero */
+    .hero-btn-container{
+        bottom: 50px;
+    }
+
+    /* About Us */
+    .about-us-grid{
+        grid-template-columns: 50% 50%;
+    }
+
+    /* Barbers */
+    .barbers-grid{
+        grid-template-columns: auto auto auto;
+        /* grid-template-columns: 33.33% 33.33% 33.33%; */
+    }
+
+    /* HairCut */
+    .haircut-grid{
+        grid-template-columns: auto auto auto;
+    }
+
+    /* Contact */
+    .contact-container-email-name{
+        padding: 20px 100px;
+    }
+
+    /* Footer */
+    .footer-grid{
+        grid-template-columns: auto auto auto auto;
+        column-gap: 24px;
+    }
+}
+
+/* large laptops and desktops */
+@media only screen and (min-width: 1200px){
+    .container{
+        max-width: 1140px;
+        margin: auto auto;
+    }
+
+     /* Haircut */
+     .haircut-grid{
+        column-gap: 24px;
+    }
+
+    .haircut-item{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    .container{
+        max-width: 1320px;
+        margin: auto auto;
+    }
+
+   
+}
